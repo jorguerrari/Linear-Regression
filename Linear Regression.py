@@ -51,7 +51,7 @@ for x in range(len(predictions)):
 
 
 # Plot
-p = "G2"  # use a variable to make it more dynamic
+p = "absences"  # use a variable to make it more dynamic
 # look at correlation
 pyplot.style.use("ggplot")
 pyplot.scatter(data[p], data["G3"])
